@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="test">
+    <classes>
+      <class name="testcases.Tc_01_validateLogin" />
+    </classes>
+  </test>
+</suite>

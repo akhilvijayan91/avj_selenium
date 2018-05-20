@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15902" started-at="2018-05-04T13:09:59Z" finished-at="2018-05-04T13:10:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15902" started-at="2018-05-04T13:09:59Z" finished-at="2018-05-04T13:10:15Z">
+      <class name="testcases.Tc_01validateloginwithextentreport">
+        <test-method status="PASS" signature="initiateDriverinstance()[pri:0, instance:testcases.Tc_01validateloginwithextentreport@3e6fa38a]" name="initiateDriverinstance" is-config="true" duration-ms="10122" started-at="2018-05-04T18:40:00Z" finished-at="2018-05-04T18:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverinstance -->
+        <test-method status="FAIL" signature="tc_01_login(java.lang.String, java.lang.String)[pri:0, instance:testcases.Tc_01validateloginwithextentreport@3e6fa38a]" name="tc_01_login" duration-ms="4731" started-at="2018-05-04T18:40:10Z" data-provider="Excel" finished-at="2018-05-04T18:40:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arjun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[akhil]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Find a Flight: Mercury Tours:] but found [Sign-on: Mercury Tours]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Find a Flight: Mercury Tours:] but found [Sign-on: Mercury Tours]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at assertions.compare.validatepagetitle(compare.java:32)
+	at testcases.Tc_01validateloginwithextentreport.tc_01_login(Tc_01validateloginwithextentreport.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_login -->
+        <test-method status="PASS" signature="closeDriverInstance()[pri:0, instance:testcases.Tc_01validateloginwithextentreport@3e6fa38a]" name="closeDriverInstance" is-config="true" duration-ms="357" started-at="2018-05-04T18:40:14Z" finished-at="2018-05-04T18:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverInstance -->
+      </class> <!-- testcases.Tc_01validateloginwithextentreport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
